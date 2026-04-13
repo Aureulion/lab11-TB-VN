@@ -1,3 +1,6 @@
+# https://github.com/Aureulion/lab11-TB-VN.git
+# Partner 1: Veronica Nava
+# Partner 2: Tyler Bauman
 """
 calculator.py
 - Defines functions used to create a simple calculator

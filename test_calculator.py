@@ -1,3 +1,6 @@
+# https://github.com/Aureulion/lab11-TB-VN.git
+# Partner 1: Veronica Nava
+# Partner 2: Tyler Bauman
 import unittest
 #from calculator import *
 from calculator import div as divide, mul as multiply, add, subtract, logarithm, exp, square_root, hypotenuse
