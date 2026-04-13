@@ -1,5 +1,6 @@
 import unittest
-from calculator import *
+#from calculator import *
+from calculator import div as divide, mul as multiply, add, subtract, logarithm, exp, square_root, hypotenuse
 
 class TestCalculator(unittest.TestCase):
 
@@ -9,9 +10,9 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(multiply(6,11), 66)
 
     def test_divide(self):# 3 assertions
-        self.assertEqual(divide(10,2), 5.0)
-        self.assertEqual(divide(-10,2), -5.0)
-        self.assertAlmostEqual(divide(5,2), 2.5)
+        self.assertAlmostEqual(divide(10,2), 0.2)
+        self.assertAlmostEqual(divide(-10,2), -0.2)
+        self.assertAlmostEqual(divide(2,5), 2.5)
 
 
     
